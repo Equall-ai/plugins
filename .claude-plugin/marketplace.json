@@ -1,0 +1,14 @@
+{
+  "name": "equall",
+  "owner": {
+    "name": "Equall"
+  },
+  "plugins": [
+    {
+      "name": "equall",
+      "source": "./plugins/equall",
+      "description": "Find your Equall data rooms and ask questions about published governance reports."
+    }
+  ],
+  "description": "Equall plugins for governance reports and data rooms."
+}

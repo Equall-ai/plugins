@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "equall",
+  "version": "0.1.0-alpha.1",
+  "description": "Find your Equall data rooms and ask questions about published governance reports.",
+  "homepage": "https://equall.com",
+  "repository": "https://github.com/Equall-ai/plugins",
+  "author": {
+    "name": "Equall"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Equall",
+        "shortDescription": "Equall governance reports",
+        "longDescription": "Find accessible Equall data rooms and answer questions about published governance reports, including leadership, share classes, investor rights, and corporate approvals. Connects to Equall at equall.com and requires Equall sign-in.",
+        "developerName": "Equall",
+        "category": "Productivity",
+        "websiteURL": "https://equall.com",
+        "privacyPolicyURL": "https://equall.com/privacy_policy",
+        "termsOfServiceURL": "https://equall.com/terms_of_service",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "Which Equall data rooms can I access?",
+        "logo": "./assets/equall.svg",
+        "composerIcon": "./assets/equall.svg"
+      }
+    }
+  }
+}
