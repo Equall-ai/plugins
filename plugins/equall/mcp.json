@@ -3,17 +3,7 @@
   "mcpServers": {
     "equall": {
       "type": "streamable-http",
-      "url": "https://equall.com/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "oauth",
-            "client": {
-              "mode": "cimd"
-            }
-          }
-        }
-      }
+      "url": "https://equall.com/mcp"
     }
   }
 }
